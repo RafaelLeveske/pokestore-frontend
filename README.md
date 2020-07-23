@@ -10,6 +10,8 @@
 
 Pokestore é uma aplicação de compras de pokemon online. A aplicação Web pode ser usada pelos usuários que querem efetuarem compras de maneira simples e fácil.
 
+A Pokestore foi baseada em informações retiradas da API [PokéAPI](https://pokeapi.co/).
+
 
 ## 🚀 Instalação e execução
 
