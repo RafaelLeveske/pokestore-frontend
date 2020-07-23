@@ -4,7 +4,7 @@
 
 <h3 align="center">Pokestore - Frontend</h3>
 
-<p align="center">Código do desafio B2W Desenvolvedor Front end junior 🎓</p>
+<p align="center">Código do desafio B2W Desenvolvedor Front end junior</p>
 
 ## 💻 Projeto
 
