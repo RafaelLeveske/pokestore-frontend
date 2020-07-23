@@ -5,12 +5,25 @@ export const Container = styled.header`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 5px 0;
+`;
+
+export const LogoContainer = styled.div`
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   margin: 50px 0;
 `;
 
 export const Logo = styled(Link)`
   width: 250px;
   height: 250px;
+`;
+
+export const Type = styled.img`
+  width: 40px;
+  height: 40px;
+  margin-top: 25px;
 `;
 
 export const Cart = styled(Link)`
@@ -21,6 +34,11 @@ export const Cart = styled(Link)`
 
   &:hover {
     opacity: 0.7;
+  }
+
+  img {
+    width: 40px;
+    height: 40px;
   }
 
   div {

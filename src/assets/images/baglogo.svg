@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 19.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 48 48" style="enable-background:new 0 0 48 48;" xml:space="preserve">
+<polygon style="fill:#CFD8DC;" points="9,5 39,5 43,43 5,43 "/>
+<circle style="fill:#78909C;" cx="30" cy="10" r="2"/>
+<circle style="fill:#78909C;" cx="18" cy="10" r="2"/>
+<path style="fill:none;stroke:#FFFFFF;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;" d="M30,10v3c0,3.3-2.7,6-6,6l0,0  c-3.3,0-6-2.7-6-6v-3"/>
+<circle style="fill:#FFFFFF;" cx="24" cy="32" r="8"/>
+<path style="fill:#FF3D00;" d="M32,32H16c0-4.418,3.582-8,8-8S32,27.582,32,32z"/>
+<path style="fill:#455A64;" d="M16,32c0,0.339,0.028,0.672,0.069,1h15.862C31.972,32.672,32,32.339,32,32s-0.028-0.672-0.069-1  H16.069C16.028,31.328,16,31.661,16,32z"/>
+<circle style="fill:#455A64;" cx="24" cy="32" r="4"/>
+<circle style="fill:#FFFFFF;" cx="24" cy="32" r="2"/>
+</svg>
