@@ -2,7 +2,7 @@
   <img alt="Pokemon" src="https://upload.wikimedia.org/wikipedia/commons/9/98/International_Pok%C3%A9mon_logo.svg" width="200px" />
 </h1>
 
-<h3 align="center">RPokestore - Frontend</h3>
+<h3 align="center">Pokestore - Frontend</h3>
 
 <p align="center">Código do desafio B2W Desenvolvedor Front end junior 🎓</p>
 
