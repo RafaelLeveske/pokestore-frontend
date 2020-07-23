@@ -2,20 +2,19 @@
   <img alt="Pokemon" src="https://upload.wikimedia.org/wikipedia/commons/9/98/International_Pok%C3%A9mon_logo.svg" width="200px" />
 </h1>
 
-<h3 align="center">Rocketshoes - Frontend</h3>
+<h3 align="center">RPokestore - Frontend</h3>
 
-<p align="center">Código do desafio do 7º módulo do Bootcamp GoStack 🎓</p>
+<p align="center">Código do desafio B2W Desenvolvedor Front end junior 🎓</p>
 
 ## 💻 Projeto
 
-RocketShoes é uma aplicação de compras online. A aplicação Web e a aplicação mobile podem ser usadas pelos usuários que querem efetuarem compras de maneira simples e fácil.
+Pokestore é uma aplicação de compras de pokemon online. A aplicação Web pode ser usada pelos usuários que querem efetuarem compras de maneira simples e fácil.
 
-Essa aplicação foi desenvolvida no 7º modulo do GoStack 7.0.
 
 ## 🚀 Instalação e execução
 
 1. Faça um clone desse repositório;
-2. Entre na pasta rodando `cd rocketshoes-mobile`;
+2. Entre na pasta rodando `cd pokestore-frontend;
 3. Rode `yarn` para instalar as dependências;
 4. Rode `yarn start` para iniciar a aplicação.
 
