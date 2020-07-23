@@ -2,15 +2,15 @@
   <img alt="Pokemon" src="https://upload.wikimedia.org/wikipedia/commons/9/98/International_Pok%C3%A9mon_logo.svg" width="200px" />
 </h1>
 
-<h3 align="center">Pokestore - Frontend</h3>
+<h3 align="center">Pokéstore - Frontend</h3>
 
 <p align="center">Código do desafio B2W Desenvolvedor Front end junior</p>
 
 ## 💻 Projeto
 
-Pokestore é uma aplicação de compras de pokemon online. A aplicação Web pode ser usada pelos usuários que querem efetuarem compras de maneira simples e fácil.
+Pokéstore é uma aplicação de compras de pokemon online. A aplicação Web pode ser usada pelos usuários que querem efetuarem compras de maneira simples e fácil.
 
-A Pokestore foi baseada em informações retiradas da API [PokéAPI](https://pokeapi.co/).
+A Pokéstore foi baseada em informações retiradas da API [PokéAPI](https://pokeapi.co/).
 
 
 ## 🚀 Instalação e execução
