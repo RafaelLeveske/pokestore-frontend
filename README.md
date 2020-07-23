@@ -2,7 +2,7 @@
   <img alt="Pokemon" src="https://upload.wikimedia.org/wikipedia/commons/9/98/International_Pok%C3%A9mon_logo.svg" width="200px" />
 </h1>
 
-<h3 align="center">Pokéstore - Frontend</h3>
+<h3 align="center">Pokéstore Dark Type - Frontend</h3>
 
 <p align="center">Código do desafio B2W Desenvolvedor Front end junior</p>
 
@@ -10,13 +10,15 @@
 
 Pokéstore é uma aplicação de compras de pokemon online. A aplicação Web pode ser usada pelos usuários que querem efetuarem compras de maneira simples e fácil.
 
+Este projeto é focado na aplicação de compras nos tipos dark de Pokémon.
+
 A Pokéstore foi baseada em informações retiradas da API [PokéAPI](https://pokeapi.co/).
 
 
 ## 🚀 Instalação e execução
 
 1. Faça um clone desse repositório;
-2. Entre na pasta rodando `cd pokestore-frontend;
+2. Entre na pasta rodando `cd pokestore-dark-type-frontend;
 3. Rode `yarn` para instalar as dependências;
 4. Rode `yarn start` para iniciar a aplicação.
 
