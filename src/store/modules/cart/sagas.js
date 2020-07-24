@@ -31,7 +31,7 @@ function* addToCart({ id }) {
     return;
   }
 
-  const response = yield call(api.get, `products/${id}`);
+  const response = yield call(api.get, `dark_type/${id}`);
 
   const data = {
     ...response.data,
