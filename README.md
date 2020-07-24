@@ -12,9 +12,6 @@ Pokéstore é uma aplicação de compras de pokemon online. A aplicação Web po
 
 Este projeto é focado na aplicação de compras nos tipos dark de Pokémon.
 
-A Pokéstore foi baseada em informações retiradas da API [PokéAPI](https://pokeapi.co/).
-
-
 ## 🚀 Instalação e execução
 
 1. Faça um clone desse repositório;
