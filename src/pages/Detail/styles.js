@@ -1,15 +1,18 @@
 import styled from 'styled-components';
 import { darken } from 'polished';
 
+import pokeballBackground from '../../assets/images/pokeball-logo.svg';
+
 export const Container = styled.section`
-  padding: 30px;
+  padding: 10px;
   border-radius: 8px;
-  background: #fff;
+  background: #f0fbf5 url(${pokeballBackground}) no-repeat 0% top;
 
   header {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-left: 40px;
 
     h1 {
       font-size: 30px;
@@ -28,6 +31,7 @@ export const Container = styled.section`
     display: flex;
     justify-content: space-between;
     max-width: 600px;
+    margin-left: 90px;
 
     img {
       width: 400px;
@@ -36,8 +40,10 @@ export const Container = styled.section`
 
     div {
       margin-top: 35px;
+      justify-content: left;
 
       strong {
+        flex: 1;
         margin-top: 30px;
         font-size: 16px;
       }
@@ -46,10 +52,11 @@ export const Container = styled.section`
         display: flex;
         list-style: none;
         margin-top: 60px;
+        justify-content: center;
 
         li {
           & + li {
-            margin-left: 70px;
+            margin-left: 30px;
           }
           strong {
             display: block;
@@ -69,10 +76,11 @@ export const Container = styled.section`
         display: flex;
         align-items: center;
 
-        width: 500px;
+        width: 420px;
         height: 60px;
         overflow: hidden;
         margin-top: 110px;
+        margin-left: 20px;
         border: 0;
         border-radius: 4px;
         color: #fff;

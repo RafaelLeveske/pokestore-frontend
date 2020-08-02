@@ -29,6 +29,7 @@ export default function Detail() {
     <>
       {product && (
         <Container>
+          <img src="" alt="" />
           <header>
             <h1>{product.title}</h1>
             <span>Nº {product.id}</span>
