@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
+import { Link } from 'react-router-dom';
 
 import { MdAddShoppingCart } from 'react-icons/md';
 
@@ -11,7 +12,13 @@ import { addToCartRequest } from '../../store/modules/cart/actions';
 import { ProductList } from './styles';
 
 export default function Home() {
-  const [products, setProducts] = useState([]);
+  const [products, setProducts] = useState(() => {
+    const storageProducts = localStorage.getItem('@Pokestore:products');
+    if (storageProducts) {
+      return JSON.parse(storageProducts);
+    }
+    return [];
+  });
   const amount = useSelector(state =>
     state.cart.reduce(
       (sumAmount, product) => ({ ...sumAmount, [product.id]: product.amount }),
@@ -20,6 +27,10 @@ export default function Home() {
   );
 
   const dispatch = useDispatch();
+
+  useEffect(() => {
+    localStorage.setItem('@Pokestore:products', JSON.stringify(products));
+  }, [products]);
 
   useEffect(() => {
     async function loadProducts() {
@@ -43,7 +54,9 @@ export default function Home() {
     <ProductList>
       {products.map(product => (
         <li key={product.id}>
-          <img src={product.image} alt={product.title} />
+          <Link to={`/pokemon/${product.id}`}>
+            <img src={product.image} alt={product.title} />
+          </Link>
           <strong>{product.title}</strong>
           <span>{product.priceFormatted}</span>
 
