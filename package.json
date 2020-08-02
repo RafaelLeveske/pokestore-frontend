@@ -1,9 +1,9 @@
 {
-  "name": "rocketshoes-frontend",
+  "name": "pokestore-frontend-dark-type",
   "version": "1.0.0",
   "author": {
-    "name": "Luciano Tavernard",
-    "email": "lucianotavernard@gmail.com"
+    "name": "Rafael Vieira",
+    "email": "rafaelleveske@gmail.com"
   },
   "dependencies": {
     "axios": "^0.19.0",
