@@ -6,13 +6,12 @@ import pokeballBackground from '../../assets/images/pokeball-logo.svg';
 export const Container = styled.section`
   padding: 10px;
   border-radius: 8px;
-  background: #f0fbf5 url(${pokeballBackground}) no-repeat 0% top;
+  background: #f0fbf5;
 
   header {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 40px;
 
     h1 {
       font-size: 30px;
@@ -30,8 +29,9 @@ export const Container = styled.section`
   section {
     display: flex;
     justify-content: space-between;
+    background: url(${pokeballBackground}) no-repeat 0% top;
     max-width: 600px;
-    margin-left: 90px;
+    margin-left: 50px;
 
     img {
       width: 400px;
@@ -40,6 +40,7 @@ export const Container = styled.section`
 
     div {
       margin-top: 35px;
+      margin-left: 20px;
       justify-content: left;
 
       strong {
@@ -81,6 +82,7 @@ export const Container = styled.section`
         overflow: hidden;
         margin-top: 110px;
         margin-left: 20px;
+        margin-right: 20px;
         border: 0;
         border-radius: 4px;
         color: #fff;
