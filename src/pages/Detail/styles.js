@@ -4,7 +4,7 @@ import { darken } from 'polished';
 import pokeballBackground from '../../assets/images/pokeball-logo.svg';
 
 export const Container = styled.section`
-  padding: 10px;
+  padding: 10px 10px;
   border-radius: 8px;
   background: #f0fbf5;
 
@@ -28,10 +28,10 @@ export const Container = styled.section`
 
   section {
     display: flex;
+    margin: 0 auto;
     justify-content: space-between;
     background: url(${pokeballBackground}) no-repeat 0% top;
-    max-width: 600px;
-    margin-left: 50px;
+    max-width: 900px;
 
     img {
       width: 400px;
@@ -39,14 +39,14 @@ export const Container = styled.section`
     }
 
     div {
+      justify-content: flex-end;
       margin-top: 35px;
       margin-left: 20px;
-      justify-content: left;
 
       strong {
-        flex: 1;
         margin-top: 30px;
         font-size: 16px;
+        max-width: 740px;
       }
 
       ul {
@@ -97,6 +97,50 @@ export const Container = styled.section`
           flex: 1;
           font-weight: bold;
           text-align: center;
+        }
+      }
+    }
+  }
+
+  @media (max-width: 1000px) {
+    display: block;
+    margin: 0 auto;
+    max-width: 700px;
+    padding: 15 20px;
+    margin-bottom: 20px;
+
+    header {
+      padding: 32px 20px;
+      display: flex;
+      align-items: center;
+    }
+
+    section {
+      margin: 0 auto;
+      padding: 10px;
+      margin-bottom: 10px;
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+      position: relative;
+      background: url(${pokeballBackground}) no-repeat 50% top;
+      max-width: 500px;
+
+      img {
+        align-self: center;
+      }
+
+      div {
+        max-width: 460px;
+        margin-top: 150px;
+        display: block;
+
+        strong {
+          max-width: 200px;
+        }
+
+        button {
+          margin-top: 70px;
         }
       }
     }
