@@ -37,7 +37,7 @@ export const Type = styled.img`
   margin-top: 25px;
 
   @media (max-width: 800px) {
-    margin-right: 15px;
+    margin-right: 30px;
   }
 `;
 

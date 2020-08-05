@@ -109,6 +109,7 @@ export const Container = styled.section`
     max-width: 700px;
     padding: 15 20px;
     margin-bottom: 20px;
+    margin-right: 5px;
 
     header {
       padding: 32px 20px;
