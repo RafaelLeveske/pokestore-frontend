@@ -74,6 +74,7 @@ export const Cart = styled(Link)`
   @media (max-width: 800px) {
     div {
       margin-left: 25px;
+      margin-right: 5px;
     }
   }
 `;
