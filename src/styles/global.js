@@ -34,4 +34,30 @@ export default createGlobalStyle`
   button {
     cursor: pointer;
   }
+
+  @media(max-width: 800px) {
+    * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100vh;
+}
+
+
+#root {
+  display: flex;
+  flex-direction: column;
+  position: relative
+}
+
+body,
+input,
+button,
+textarea {
+  font: 500 16px Roboto;
+}
+  }
 `;
