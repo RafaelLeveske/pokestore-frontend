@@ -104,12 +104,10 @@ export const Container = styled.section`
 
   @media (max-width: 1000px) {
     display: block;
-    margin: auto;
+    margin: 20px 20px;
     align-self: center;
     max-width: 700px;
-    padding: 15 20px;
-    margin-bottom: 20px;
-    margin-right: 5px;
+    padding: 15px 20px;
 
     header {
       padding: 32px 20px;

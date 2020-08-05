@@ -70,4 +70,10 @@ export const Cart = styled(Link)`
       color: #999;
     }
   }
+
+  @media (max-width: 800px) {
+    div {
+      margin-left: 25px;
+    }
+  }
 `;
