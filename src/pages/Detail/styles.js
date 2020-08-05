@@ -104,7 +104,7 @@ export const Container = styled.section`
 
   @media (max-width: 1000px) {
     display: block;
-    margin: 0 auto;
+    margin: auto;
     align-self: center;
     max-width: 700px;
     padding: 15 20px;
